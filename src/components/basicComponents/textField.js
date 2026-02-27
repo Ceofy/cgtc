@@ -12,6 +12,7 @@ const TextField = props => {
         {label} {required ? '*' : ''}
       </Typography>
       <MuiTextField
+        name={label.toLowerCase()}
         fullWidth
         required={required}
         {...rest}

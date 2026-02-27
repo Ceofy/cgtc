@@ -125,6 +125,7 @@ const Contact = () => {
             name='contact'
             netlify
           >
+            <input type='hidden' name='form-name' value='contact' />
             <TextField
               label='Name'
               value={name}
@@ -132,6 +133,7 @@ const Contact = () => {
             />
             <TextField
               label='Email'
+              type='email'
               required
               value={email}
               onChange={event => setEmail(event.target.value)}
