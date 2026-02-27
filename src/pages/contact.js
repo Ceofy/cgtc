@@ -116,13 +116,14 @@ const Contact = () => {
               <Typography>{EMAIL_ADDRESS}</Typography>
             </IconSegment>
           </Box>
-          <form
-            style={{
+          <Box
+            sx={{
               display: 'flex',
               flexDirection: 'column',
               flexGrow: 1,
               gap: 0.75,
             }}
+            component='form'
             name='contact'
             method='POST'
             data-netlify='true'
@@ -161,7 +162,7 @@ const Contact = () => {
             <TransitionBox isVisible={feedback}>
               <Typography>{feedback}</Typography>
             </TransitionBox>
-          </form>
+          </Box>
         </Box>
       </Box>
     </Layout>
