@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
@@ -27,12 +27,6 @@ const Contact = () => {
   const [message, setMessage] = useState('');
   const [feedback, setFeedback] = useState('');
 
-  useEffect(() => {
-    if (feedback) {
-      setFeedback('');
-    }
-  }, [name, email, message]);
-
   const encode = data => {
     return Object.keys(data)
       .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
@@ -41,6 +35,8 @@ const Contact = () => {
 
   const handleSubmitForm = async event => {
     event.preventDefault();
+
+    console.log('hello');
 
     try {
       await fetch('/', {
@@ -54,10 +50,10 @@ const Contact = () => {
         }),
       });
 
-      setFeedback('Thank you for submitting!');
       setName('');
       setEmail('');
       setMessage('');
+      setFeedback('Thank you for submitting!');
     } catch (error) {
       console.error(error);
       setFeedback(
@@ -133,21 +129,36 @@ const Contact = () => {
             <TextField
               label='Name'
               value={name}
-              onChange={event => setName(event.target.value)}
+              onChange={event => {
+                setName(event.target.value);
+                if (feedback) {
+                  setFeedback('');
+                }
+              }}
             />
             <TextField
               label='Email'
               type='email'
               required
               value={email}
-              onChange={event => setEmail(event.target.value)}
+              onChange={event => {
+                setEmail(event.target.value);
+                if (feedback) {
+                  setFeedback('');
+                }
+              }}
             />
             <TextField
               label='Message'
               multiline
               minRows={5}
               value={message}
-              onChange={event => setMessage(event.target.value)}
+              onChange={event => {
+                setMessage(event.target.value);
+                if (feedback) {
+                  setFeedback('');
+                }
+              }}
             />
             <Button
               sx={{

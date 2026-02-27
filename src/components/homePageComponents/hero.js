@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
@@ -36,7 +37,9 @@ const Hero = () => {
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt
         mollit anim id est laborum.
       </Typography>
-      <Button>Contact Us</Button>
+      <Button component={Link} to='/contact'>
+        Contact Us
+      </Button>
       <Box>TODO: Images</Box>
     </Box>
   );
