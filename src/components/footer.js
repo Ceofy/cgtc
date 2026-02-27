@@ -14,8 +14,17 @@ import {
 
 const Footer = () => {
   return (
-    <Box role='footer' sx={{ display: 'flex', flexDirection: 'column', mt: 6 }}>
-      <Typography variant='h4'>Calgary Grace & Truth Church </Typography>
+    <Box
+      role='footer'
+      sx={{
+        display: 'flex',
+        flexDirection: 'column',
+        mt: 6,
+        mx: { xs: 1, md: 4 },
+        mb: 2,
+      }}
+    >
+      <Typography variant='h4'>Calgary Grace & Truth Church</Typography>
       <Typography variant='caption'>{PHONE_NUMBER}</Typography>
       <Typography variant='caption'>{EMAIL_ADDRESS}</Typography>
       <Typography variant='caption'>{ADDRESS_LINE_1}</Typography>

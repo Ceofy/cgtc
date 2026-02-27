@@ -11,6 +11,7 @@ const AboutUs = () => {
         display: 'flex',
         flexDirection: { xs: 'column', md: 'row' },
         gap: 2,
+        width: '100%',
       }}
     >
       <Box sx={{ width: { xs: '100%', md: '50%' } }}>
