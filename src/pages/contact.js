@@ -55,6 +55,9 @@ const Contact = () => {
       });
 
       setFeedback('Thank you for submitting!');
+      setName('');
+      setEmail('');
+      setMessage('');
     } catch (error) {
       console.error(error);
       setFeedback(
