@@ -113,17 +113,17 @@ const Contact = () => {
               <Typography>{EMAIL_ADDRESS}</Typography>
             </IconSegment>
           </Box>
-          <Box
-            sx={{
+          <form
+            style={{
               display: 'flex',
               flexDirection: 'column',
               flexGrow: 1,
               gap: 0.75,
             }}
-            component='form'
-            onSubmit={handleSubmitForm}
             name='contact'
-            netlify
+            method='POST'
+            data-netlify='true'
+            onSubmit={handleSubmitForm}
           >
             <input type='hidden' name='form-name' value='contact' />
             <TextField
@@ -158,7 +158,7 @@ const Contact = () => {
             <TransitionBox isVisible={feedback}>
               <Typography>{feedback}</Typography>
             </TransitionBox>
-          </Box>
+          </form>
         </Box>
       </Box>
     </Layout>
