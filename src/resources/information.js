@@ -3,4 +3,4 @@ export const ADDRESS_LINE_2 = 'Calgary, AB';
 export const ADDRESS_LINE_3 = 'T2Y 0E1';
 
 export const PHONE_NUMBER = '587-889-7571';
-export const EMAIL_ADDRESS = 'cgtc201204@gmail.com';
+export const EMAIL_ADDRESS = 'cgtc202004@gmail.com';
