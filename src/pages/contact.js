@@ -125,7 +125,7 @@ const Contact = () => {
             data-netlify='true'
             onSubmit={handleSubmitForm}
           >
-            <input type='hidden' name='form-name' value='contact 联系我们' />
+            <input type='hidden' name='form-name' value='contact' />
             <TextField
               label='Name'
               value={name}
