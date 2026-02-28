@@ -9,7 +9,7 @@ import Seo from '../components/seo';
 const AboutUs = () => {
   return (
     <Layout>
-      <Typography variant='h1'>About Us</Typography>
+      <Typography variant='h1'>About Us 关于我们</Typography>
       <div>TODO: Photos</div>
       <Segment title='Our Mission' sx={{ mb: { xs: 0, md: 6 } }}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -20,7 +20,7 @@ const AboutUs = () => {
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt
         mollit anim id est laborum.
       </Segment>
-      <Segment title='Our Story'>
+      <Segment title='Our Story 我们的故事'>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
