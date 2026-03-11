@@ -12,22 +12,15 @@ const AboutUs = () => {
       <Typography variant='h1'>About Us 关于我们</Typography>
       <div>TODO: Photos</div>
       <Segment title='Our Mission' sx={{ mb: { xs: 0, md: 6 } }}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+我們的使命； 教导会众遵循圣经爱神和爱人的诫命，並且装备信徒共同完成耶穌基督所赋予我们
+传福音的大使命。並籍圣经发展基督徒团契，在耶穌基督的恩典和真理中成长。
       </Segment>
       <Segment title='Our Story 我们的故事'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+卡尔加里恩理教会（CGTC）由一群蒙上帝呼召出來的华人基督徒移民于2012年创立。位於卡成南
+部的fish creek ，是个信仰纯正，不属于任何宗派的独立教会。
+我们信仰的宗旨是彰显神的爱/恩典和真理。我们以圣经真理为根基，传扬基督里的救恩，引导人
+们认识生命的真谛，享受永生的真谛。 并在日常生活中以顺服基督来荣耀神，靠着圣灵的能力，
+为主作见证。
       </Segment>
     </Layout>
   );
