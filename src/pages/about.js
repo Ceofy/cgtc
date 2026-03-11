@@ -11,8 +11,8 @@ const AboutUs = () => {
     <Layout>
       <Typography variant='h1'>About Us 关于我们</Typography>
       <div>TODO: Photos</div>
-      <Segment title='Our Mission' sx={{ mb: { xs: 0, md: 6 } }}>
-我們的使命； 教导会众遵循圣经爱神和爱人的诫命，並且装备信徒共同完成耶穌基督所赋予我们
+      <Segment title='Our Mission 我们的使命' sx={{ mb: { xs: 0, md: 6 } }}>
+教导会众遵循圣经爱神和爱人的诫命，並且装备信徒共同完成耶穌基督所赋予我们
 传福音的大使命。並籍圣经发展基督徒团契，在耶穌基督的恩典和真理中成长。
       </Segment>
       <Segment title='Our Story 我们的故事'>
