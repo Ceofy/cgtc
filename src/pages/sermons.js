@@ -89,7 +89,7 @@ const Sermons = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              • Steven — 第三个儿子 （浪子）
+              • Steven — 第三个儿子（浪子）主日讲道 20260621 （父亲节）
             </a>
 
             <a
