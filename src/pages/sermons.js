@@ -56,6 +56,14 @@ const Sermons = () => {
             >
               • 北部讲道 英语 North Sermons English
             </a>
+            
+            <a
+              href="https://youtu.be/tMQiC2kP1h0"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              • Steven — 第三个儿子（浪子）主日讲道 20260621 （父亲节）
+            </a>
           </Box>
         </Box>
 
@@ -84,13 +92,7 @@ const Sermons = () => {
               color: 'text.secondary',
             }}
           >
-            <a
-              href="https://youtu.be/tMQiC2kP1h0"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              • Steven — 第三个儿子（浪子）主日讲道 20260621 （父亲节）
-            </a>
+
 
             <a
               href="https://youtu.be/GEx0rPMt-8k"
