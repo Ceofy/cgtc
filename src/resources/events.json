@@ -13,15 +13,21 @@
 
     "images": [
 
-      "/images/Outdoor_1.jpeg",
-
-      "/images/Outdoor_2.jpeg",
-
-      "/images/Outdoor_3.jpeg"
+      "/images/SummerOut_1.jpeg",
+      "/images/SummerOut_2.jpeg",
+      "/images/SummerOut_3.jpeg",
+      "/images/SummerOut_4.jpeg",
+      "/images/SummerOut_5.jpeg",
+      "/images/SummerOut_6.jpeg",
+      "/images/SummerOut_7.jpeg",
+      "/images/SummerOut_8.jpeg",
+      "/images/SummerOut_9.jpeg",
+      "/images/SummerOut_10.jpeg"
 
     ],
 
-    "type": "featured"
+   
+    "type": "past"
 
   },
 
